@@ -7,6 +7,9 @@ public class Launcher {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		fenetre f1= new fenetre();
+		f1.setVisible(true);
+		
 	}
 	/*Ajouter un livre, un exemplaire ->numero livre calculé sur base du genre, de l'auteur
 	  Rechercher un livre selon critère dont un mot dans le résumé / remarque

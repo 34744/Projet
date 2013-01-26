@@ -16,6 +16,10 @@ public class toolBar {
 	
 	private Color fondButton=Color.white;
 	
+	public void toolBar(){
+		initToolbar();
+	}
+	
 	private void initToolbar(){
 		
 		this.btn1.setEnabled(false);
