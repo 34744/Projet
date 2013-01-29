@@ -17,10 +17,9 @@ public class fenetre extends JFrame{
 
 	
 	public fenetre(){
-		this.setSize(300,300);
+		setSize(300,300);
 		panContener.setLayout(new BorderLayout());
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		//panContener.setBackground(Color.BLACK);
 		this.initToolbar();
 		setVisible(true);
 		
